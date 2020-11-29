@@ -1,19 +1,19 @@
 {
-  "name": "hello",
-  "version": "1.0.2",
-  "description": "",
+  "name": "ii-cli",
+  "version": "1.0.3",
+  "description": "ii-cli 一个复制项目的命令行工具",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./bin/hello.js"
+    "release": "npm publish"
   },
   "bin": {
-    "my-cli": "bin/index.js"
+    "ii-cli": "bin/index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "commander": "^6.0.0",
     "inquirer": "^7.3.3"
   }
