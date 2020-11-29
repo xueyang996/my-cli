@@ -1,6 +1,6 @@
 {
   "name": "ii-cli",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "ii-cli 一个复制项目的命令行工具",
   "main": "index.js",
   "scripts": {
